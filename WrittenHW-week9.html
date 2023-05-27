@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      font-family: "Arial", sans-serif;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    .suggestion {
+      background-color: #444;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .suggestion h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .suggestion ul {
+      list-style-type: square;
+      padding-left: 20px;
+      margin-top: 5px;
+    }
+
+    .suggestion li {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Peer Code Review</h1>
+
+    <div class="content">
+      <p><strong>HTML:</strong></p>
+      <ul>
+        <li>The HTML code structure is simple and organized, with appropriate usage of tags and attributes.</li>
+        <li>The image inclusion in the &lt;h1&gt; tag adds visual appeal to the page and effectively represents the game.</li>
+      </ul>
+
+      <p><strong>CSS:</strong></p>
+      <ul>
+        <li>The CSS styling is generally well-implemented, with consistent use of classes and IDs.</li>
+        <li>The layout and positioning of elements are visually pleasing and responsive.</li>
+        <li>The choice of font and font size enhances the overall design and theme of the game.</li>
+        <li>The use of flexbox for the game board and button sets simplifies the layout and alignment.</li>
+      </ul>
+
+      <p><strong>JavaScript:</strong></p>
+      <ul>
+        <li>The code is structured and organized, with clear separation of constants, state variables, event listeners, and functions.</li>
+        <li>The function names are descriptive and accurately convey their purpose.</li>
+        <li>The implementation of the resetGameBoard function effectively resets the game state and updates the UI accordingly.</li>
+        <li>The use of event listeners for each cell allows for interactive gameplay and ensures proper display of game pieces.</li>
+        <li>The checkWin and checkDraw functions accurately determine the game outcome and handle win/tie scenarios.</li>
+        <li>The inclusion of a popup banner with appropriate messages enhances the user experience.</li>
+      </ul>
+
+      <p><strong>Suggestions for Improvement:</strong></p>
+      <div class="suggestion">
+        <h3>Add comments throughout the code to explain the purpose and functionality of different sections, improving code understanding and maintainability.</h3>
+        <ul>
+          <li>Consider using a switch statement in the resetGameBoard function for setting player image sources based on the destination, enhancing code readability.</li>
+          <li>Separate the concerns of event handling and game logic by creating a separate function to handle click events and call the displayCell function from there, improving modularity and maintainability.</li>
+          <li>Use strict equality (===) instead of loose
