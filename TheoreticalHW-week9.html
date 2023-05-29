@@ -1,0 +1,58 @@
+<ol>
+    <li>
+        The worst-case time complexity is O(n), where n is the number of words in the phrase. It means the execution
+        time increases linearly with the number of words.
+    </li>
+    <li>
+        The algorithm sorts a list of elements by repeatedly swapping adjacent elements if they are in the wrong
+        order. It uses nested loops to iterate over the list, comparing adjacent elements and swapping them if
+        necessary. This process is repeated until the entire list is sorted. As there are two nested loops, the time
+        complexity becomes quadratic.
+    </li>
+    <li>
+        The worst-case time complexity for the given factorial function is O(n), where n is the input number. It
+        means that the time taken by the algorithm to execute will increase linearly with the input number.
+
+        The algorithm calculates the factorial of a given number recursively. If the input number is 0, it returns 1
+        as the base case. Otherwise, it multiplies the input number by the factorial of (n-1) and recursively calls
+        the factorial function with a smaller number. This process continues until the base case is reached. Since
+        each recursive call reduces the input by 1, the algorithm has a linear time complexity.
+    </li>
+    <li>
+        The function checks if the first element of the 'people' array is equal to the string 'bob'. Since accessing
+        the first element of an array can be done in constant time, the function has a constant time complexity. It
+        does not matter how many elements are in the array; the execution time remains the same.
+    </li>
+    <li>
+        The worst-case time complexity for the given isPalindrome function is O(n), where n is the length of the
+        input string. It means the execution time increases linearly with the length of the input. The function uses
+        a stack to reverse the input string and then compares it with the original input to determine if it is a
+        palindrome.
+    </li>
+    <li>
+        The worst-case time complexity for the given sumOfDivisors function is O(n), where n is the input number. It
+        means that the execution time increases linearly with the input number.
+
+        The function calculates the sum of all the divisors of a given number by iterating through all numbers from
+        1 to (n-1). For each number, it checks if it is a divisor of the input number. If it is, the number is added
+        to the result. The loop iterates until it reaches the input number. Since the number of iterations depends
+        on the input number, the time complexity is linear.
+    </li>
+    <li>
+        The time complexity of the given printAllNumbersThenSumPairs function is O(n), where n is the length of the
+        numArray. It means the execution time increases linearly with the size of the input array. The function
+        prints all the numbers in the array individually and then calculates and prints the sum of adjacent pairs of
+        numbers.
+    </li>
+    <li>
+        The worst-case time complexity for the given isPrime function is O(n), where n is the input number. It means
+        that the execution time increases linearly with the input number.
+
+        The function checks if a given number is prime by iterating from 2 to (num - 1) and checking if num is
+        divisible by any number within that range. If a divisor is found, it returns false, indicating that the
+        number is not prime. If no divisor is found, it returns true, indicating that the number is prime.
+
+        The loop iterates (num - 2) times, so the time complexity is linear. In the worst-case scenario, when num is
+        a prime number, the loop will run (num - 2) times, resulting in a time complexity of O(n).
+    </li>
+    </ol>
